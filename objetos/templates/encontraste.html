@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+ 
+<div class="container" style="    top: 100px;
+    position: relative;
+    margin-bottom: 250px;
+    text-align: center;">
+    <div class="row">
+   <div class="col-md-3">
+     
+   </div>
+   <div class="col-md-6">
+   <h1>Registrar objeto </h1>
+     <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Titulo</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Titulo">
+  </div>
+  <label for="exampleInputEmail1">Categoria</label>
+ <select class="form-control">
+  <option>Seleccione uno</option>
+  <option>Electronicos</option>
+  <option>Enceres</option>
+  <option>Vestuarios</option>
+  
+</select>
+ <div class="form-group">
+    <label for="exampleInputEmail1">Tu nombre</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nombre">
+  </div>
+ <div class="form-group">
+    <label for="exampleInputEmail1">Telefono</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="300-300-300">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Descripcion</label>
+   <textarea class="form-control" rows="3"></textarea>
+  </div>
+   <div class="form-group">
+    <label for="exampleInputFile">Imagen del Objeto</label>
+    <img src="http://placehold.it/900x300" alt="..." class="img-thumbnail">
+    <input style="    border: 1px solid #004279;
+    width: 100%;" type="file" id="exampleInputFile">
+   
+  </div>
+ <button type="button" class="btn btn-danger btn-lg btn-block">Publicalo !</button>
+</form>
+   </div>
+   <div class="col-md-3"></div>
+   </div> 
+</div>    
+</div> 
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+ {% block content %}
+   
+    <div class="container" style="    top: 200px;
+    position: relative;
+    margin-bottom: 250px;
+    text-align: center;">
+            <!-- <div class="row">
+                <div class="col-sm-5 portfolio-item">
+                    <a href="/objetos" class="portfolio-link" data-toggle="modal">
+                        <img src="{% static "img/game.png" %}" class="img-responsive" alt="">
+                        <div>Perdiste Algo?</div>
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                   
+                </div>
+                <div class="col-sm-5 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    
+                      <img class="img-responsive" src="{% static "img/safe.png" %}" class="img-responsive" alt="">
+                        <div>Encontraste Algo?</div>
+                    </a>
+                </div>
+                </div> -->
+                <div class="row">
+                <div class="col-md-3"></div>
+                    <div class="col-md-3"><div class="card animated  bounceInLeft">
+              <img class="card-img-top" src="http://winfieldandassociates.com/wp-content/uploads/2012/05/shaky-seo.gif" alt="100%x180"  style="height: 180px; width: 100%; display: block;">
+              <div class="card-block">
+                <h4 class="card-title"><a style="color: #122D6E;" href="/registrar">Encontraste algo?</a> </h4>
+                <p class="card-text"></p>
+                
+              </div>
+            </div></div>
+                    <div class="col-md-3"><div class="card animated  bounceInRight">
+  <img class="card-img-top" src="https://delightfullyinclined.files.wordpress.com/2011/10/animatedlostfound1.gif" style="height: 180px; width: 100%; display: block;">
+  <div class="card-block">
+    <h4 class="card-title"><a style="color: #122D6E;" href="/objetos">Perdiste algo?</a> </h4>
+    <p class="card-text"></p>
+    
+  </div>
+</div></div>
+<div class="col-md-3"></div>
+                </div>
+        </div>
+    
+{% endblock %}
